@@ -1,0 +1,21 @@
+input:
+SET SQL_SAFE_UPDATES = 0;
+drop database kev;
+create database kev;
+use kev;
+create table student(id int primary key,name varchar(50),age int,grade varchar(10),marks int);
+insert into  student values(1,'suji',17,'A',70);
+insert into student values(2,'reshma',18,'A',80);
+insert into student values(3,'harinika',17,'A',75);
+insert into student values(4,'lucky',19,'S',80);
+insert into student values(5,'saran',21,'F',40);
+insert into student values(6,'mrithula',18,'B',60); 
+select * from student;
+create table course( id int primary key,course_name varchar(50),faculty varchar(50));
+insert into course values(1928,'maths','raj');
+insert into course values(1921,'physics','dev');
+insert into course values(1922,'bio','rajkumar');
+insert into course values(1927,'english','ram');
+insert into course values(1926,'chemistry','vinay');
+insert into course values(1925,'C','raju');
+select * from course;
