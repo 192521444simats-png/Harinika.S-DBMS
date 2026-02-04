@@ -1,0 +1,13 @@
+input:
+SET SQL_SAFE_UPDATES = 0;
+use girl;
+drop table if exists courses;
+create table courses (id int,name varchar(50),age int,course varchar(50));
+insert into  courses values(1,'harini',19,'CSC');
+insert into courses values(2,'suji',20,'ECE');
+insert into courses values(3,'resh',19,'EEE');
+insert into courses values(4,'sara',18,'IT');
+insert into courses values(5,'jaya',17,'CSC');
+delete from courses where id=4;
+rollback;
+select * from courses;
