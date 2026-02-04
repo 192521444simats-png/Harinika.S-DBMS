@@ -1,0 +1,10 @@
+input:
+use girl;
+insert into st values(1,'harini',19);
+insert into st values(2,'suji',20);
+insert into st values(3,'resh',19);
+insert into st values(4,'sara',18);
+insert into st values(5,'jaya',17);
+insert into st values(6,'mrithla',19);
+insert into st values(7,'divya',18);
+select * from st;
