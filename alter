@@ -1,0 +1,14 @@
+input:
+SET SQL_SAFE_UPDATES = 0;
+drop database kev;
+create database kev;
+use kev;
+create table course( id int primary key,course_name varchar(50),faculty varchar(50));
+insert into course values(1928,'maths','raj');
+insert into course values(1921,'physics','dev');
+insert into course values(1922,'bio','rajkumar');
+insert into course values(1927,'english','ram');
+insert into course values(1926,'chemistry','vinay');
+insert into course values(1925,'C','raju');
+alter table course add age int;
+select * from course;
